@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.outer{
+    height:123vh;
+    width:100%;
+    background-color: #dfd389;
+    padding: 3px;
+
+}
+.container{
+    height:100%;
+    width:50%;
+    /* border:1px solid black; */
+    margin: auto;
+    background-color: white;
+}
+.head{
+    height:25vh;
+    width:100%;
+    /* border:1px solid black; */
+    background: url(./images/header.jpg);
+    
+}
+.head h1{
+    font-weight: 300;
+    float: right;
+    padding-top: 30px;
+    padding-right: 72px;
+}
+.head p{
+    float: right;
+    clear:right;
+    padding-top: 8px;
+    padding-right: 152px;
+}
+             /* link section */
+.links{
+    height:8vh;
+    width:100%;
+    margin-top: 6px;
+}
+.links a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    padding:12px 18px;
+    
+}
+.linkdiv{
+    height:90%;
+    width:97%;
+    border:1px solid gray;
+    margin: auto;
+}
+
+            /* first section */
+
+.firstS{
+    height:80vh;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}            
+.leftD{
+    height:95%;
+    width:35%;
+    border-right: 1px solid grey;
+}
+.top h3{
+    background-color: yellowgreen;
+    padding:8px 12px;  
+}
+.top ul{
+    list-style: none;
+    padding-left: 12px;
+    margin-top: 8px;
+}
+.top ul li{
+    text-decoration: underline;
+    padding-top: 4px;
+}
+
+.bottom{
+    margin-top: 12px;
+}
+
+.bottom h3{
+    background-color: yellowgreen;
+    padding:8px 12px;
+}
+.bottom p{
+    margin-top: 5px;
+    padding: 3px 12px;
+}
+
+
+
+
+             /* galley section */
+
+.rightD{
+    height:95%;
+    width:62%;
+}
+.galery h3{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+.galery p{
+    margin-top: 12px;
+    text-align: left;
+    padding-right: 4px;
+    line-height: 20px;
+}
+.btn{
+    padding:6px 9px;
+    background-color: yellowgreen;
+    border:none;
+    margin-top: 4px;
+}
+
+ 
+             /* subscription and other services */
+.subcrip{
+    margin-top: 22px;
+    height:55%;
+    width:100%;
+    display: flex;
+}
+.Lsub{
+    height:100%;
+    width:50%;
+}
+.Lsub h3{
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 12px;
+}
+.Lsub p{
+    margin-top: 12px;
+    line-height: 20px;
+}
+.Rsub{
+    height:100%;
+    width:50%;
+}
+.Rsub h3{
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 8px;
+}
+.Rsub p{
+    margin-top: 12px;
+    line-height: 20px;
+}
+
+                 /* footer */
+.footer{
+    height:9vh;
+    width:100%;
+    background-color: yellowgreen;
+}
+.footer p{
+    text-align: center;
+    padding-top: 22px;
+}
